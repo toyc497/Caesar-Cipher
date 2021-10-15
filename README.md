@@ -3,10 +3,10 @@ Cifra de Cesar - Criptografia e Descriptografia
 
 ![Screenshot](ceaserSystem.png)
 
-##Rodar no Terminal linux:
+## Rodar no Terminal linux:
 gcc main.c -o mainexec\
 ./mainexec
 
-##Rodar em compilador online
-onlinegdb.com
+## Rodar em compilador online
+onlinegdb.com\
 replit.com
