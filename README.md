@@ -8,5 +8,4 @@ gcc main.c -o mainexec\
 ./mainexec
 
 ## Rodar em compilador online
-onlinegdb.com\
-replit.com
+onlinegdb.com
