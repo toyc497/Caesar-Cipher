@@ -10,7 +10,7 @@ gcc main.c -o mainexec\
 ## Rodar em compilador online
 onlinegdb.com
 
-## Desafio de Criptografia
+## Desafio de Segurança e Criptografia
 1 - Entre na pasta "Desafio"\
 2 - Abra o arquivo index.html no navegador\
 3 - Tente descobrir a senha
