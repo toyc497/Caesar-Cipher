@@ -15,4 +15,6 @@ onlinegdb.com
 2 - Abra o arquivo index.html no navegador\
 3 - Tente descobrir a senha
 
-Obs: Não é permitido olhar o arquivo script.js pois nele contêm a resposta
+Dica: o arquivo "main.c" poderá ser necessário
+
+Obs: Não é permitido olhar o arquivo "script.js" pois nele contêm a resposta
