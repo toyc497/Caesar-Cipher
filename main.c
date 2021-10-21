@@ -11,14 +11,21 @@ char verifyAlphabet(int criptValue,char letter,int rotation){
 			if(criptValue == 3){
 			    int positRotation = alphPosit+rotation;
 			    if(positRotation > 25){
-			        int pos = (25+(rotation-1)-25);
-			        printf("%s",alphabet[pos]);
-			        break;
+			        //Entra no if caso o valor estoure o maximo do vetor;
+			        int newValue = (positRotation-25)-1;
+			        printf("%s",alphabet[newValue]);
+			    }else{
+			        printf("%s",alphabet[positRotation]);
 			    }
-			    printf("%s",alphabet[positRotation]);
 			}else{
 			    int positRotation = alphPosit-rotation;
-			    printf("%s",alphabet[positRotation]);
+			    if(positRotation < 0){
+			        //Entra no if caso o valor estoure o minimo do vetor;
+			        int newValue = (25+positRotation)+1;
+			        printf("%s",alphabet[newValue]);
+			    }else{
+			        printf("%s",alphabet[positRotation]);
+			    }
 			}
 		}
 	}
